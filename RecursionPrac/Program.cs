@@ -1,16 +1,16 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
-
-namespace RecursionPrac
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+namespace RecursionPrac31
 {
-    internal class Fibonacci
+    internal class Program
     {
-        public long Get(int n)
+        static void Main(string[] args)
         {
-            Console.Write(n + " ");
-            if (n < 0) { return 0; }
-            if (n == 1) { return 1; }
-            return Get(n - 2) + Get(n - 1);
+            Fibonacci fibo = new Fibonacci();
+            Console.WriteLine(fibo.Get(30));
         }
     }
 }
