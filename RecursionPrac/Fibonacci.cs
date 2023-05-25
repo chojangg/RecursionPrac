@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 
-namespace RecursionPrac31
+namespace RecursionPrac
 {
     internal class Fibonacci
     {
